@@ -141,7 +141,7 @@ return {
 		"make",
 		"cmake",
       },
-	  indent = { enable = false },
+	  indent = { enable = true },
     },
   },
 
