@@ -10,6 +10,9 @@ vim.keymap.set("n", "<leader>th", "<cmd>ToggleTerm direction=horizontal<CR>", { 
 -- Shortcut for Float Terminal
 vim.keymap.set("n", "<leader>tf", "<cmd>ToggleTerm direction=float<CR>", { desc = "Floating Terminal (Toggle)" })
 
+-- Shortcut for entering visual mode terminal
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode to normal mode" })
+
 vim.keymap.set("n", "<M-h>", "<<", { silent = true, desc = "Prev tab" })
 vim.keymap.set("n", "<M-l>", ">>", { silent = true, desc = "Next tab" })
 
